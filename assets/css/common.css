@@ -2,16 +2,15 @@
 #fixedHeader {
   display: block;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
-  color: #4b5421;
+  font-size: 1.5em;
   padding: .5em 1em;
-  background: rgba(255, 255, 255, 0.8);
   z-index: 1000;
 }
 /* line 9, ../_scss/common/_header.scss */
 #fixedHeader a {
-  color: #4b5421;
+  color: #fff;
 }
 /* line 12, ../_scss/common/_header.scss */
 #fixedHeader .brand {
@@ -60,7 +59,7 @@
 
 /* line 1, ../_scss/top/_peridot_release.scss */
 #heroUnit {
-  background-image: url("/assets/img/background.png");
+  background-image: url("/assets/img/top/release/pattern.jpg");
   color: #4b5421;
   padding: 6em;
 }
